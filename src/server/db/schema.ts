@@ -1,6 +1,6 @@
 import { pgTableCreator, varchar } from "drizzle-orm/pg-core";
 
-export const createTable = pgTableCreator((name) => `park_${name}`);
+export const createTable = pgTableCreator((name) => `med_${name}`);
 
 export const users = createTable("users", {
   id: varchar("id", { length: 40 }).primaryKey(),

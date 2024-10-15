@@ -7,5 +7,5 @@ export const accessPrefix = "ACS_";
 export const refreshPrefix = "RFS_";
 
 // cookies
-export const sessionCookie = "park_session";
-export const refreshCookie = "park_auth";
+export const sessionCookie = "med_session";
+export const refreshCookie = "med_auth";
