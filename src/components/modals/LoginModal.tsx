@@ -6,6 +6,7 @@ import { Dialog, DialogPanel } from "@headlessui/react";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import { SetStateAction } from "jotai";
 import { Dispatch } from "react";
+import { toast } from "sonner";
 
 export default function LoginModal(
   props: {
