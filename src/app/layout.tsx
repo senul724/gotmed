@@ -18,7 +18,11 @@ export default function RootLayout({
     <html lang="en" className={`${GeistSans.variable}`}>
       <Toaster position="top-center" richColors={true} />
       <body>
-        <TRPCReactProvider>{children}</TRPCReactProvider>
+        <TRPCReactProvider>
+          <div className="w-full flex flex-col items-center justify-center bg-blue-50">
+            {children}
+          </div>
+        </TRPCReactProvider>
       </body>
     </html>
   );
