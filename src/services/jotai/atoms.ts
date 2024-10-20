@@ -1,3 +1,3 @@
 import { atom } from "jotai";
 
-// add atoms here
+export const sidebarOpenAtom = atom(false);
